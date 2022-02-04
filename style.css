@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Supermercado+One&display=swap');
+
+h1 {
+    font-family: 'Supermercado One', cursive;
+    color: rgb(54, 54, 54);
+}
+
+header {
+    text-align: center;
+}
+
+form input#input1, input#input2 {
+    width: 400px;
+    height: 45px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    color: grey;
+    font-style: italic;
+}
+
+section#Form {
+    text-align: center;
+}
+
+section#Form p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(141, 141, 141);
+    font-size: small;
+}
+
+#moreInfoIco {
+    color: rgb(187, 42, 42);
+    font-size: large;
+}
+
+p#recordar {
+}
+
+a {
+    color: rgb(187, 42, 42);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+}
+
+button#boton1 {
+    background-color: rgb(187, 42, 42);
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+    width: 150px;
+}
+
+button#boton2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(187, 42, 42);
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid rgb(187, 42, 42);
+    width: 150px;
+}
+
+#boton1:hover {
+    background-color: rgb(146, 31, 31);
+}
+
+#boton2:hover {
+    color: white;
+    background-color: rgb(187, 42, 42);
+}
